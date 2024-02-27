@@ -1,0 +1,36 @@
+<div><h1>
+  {{title}}
+</h1>
+<input type="number" name="num1" [(ngModel)]="num1">
+<input type="number" name="num2" [(ngModel)]="num2">
+<br>
+<button (click)="add()">ADD</button>
+<button (click)="sub()">SUB</button>
+<button (click)="mul()">MUL</button>
+<button (click)="divi()">DIVI</button>
+<button (click)="reset()">RESET</button>
+<h3>Result: {{num3}} </h3>
+
+</div>
+<!--<div id="calculator">
+  <input id="display" readonly>
+  <div id="keys">
+    <button (click)="appendtodisplay('+')" class="operator-btn">+</button>
+    <button (click)="appendtodisplay('7')">7</button>
+    <button (click)="appendtodisplay('8')">8</button>
+    <button (click)="appendtodisplay('9')">9</button>
+    <button (click)="appendtodisplay('4')">4</button>
+    <button (click)="appendtodisplay('5')">5</button>
+    <button (click)="appendtodisplay('6')">6</button>
+    <button (click)="appendtodisplay('1')">1</button>
+    <button (click)="appendtodisplay('2')">2</button>
+    <button (click)="appendtodisplay('3')">3</button>
+    <button (click)="appendtodisplay('0')">0</button>
+    <button (click)="appendtodisplay('-')" class="operator-btn" >-</button>
+    <button (click)="appendtodisplay('*')" class="operator-btn">*</button>
+    <button (click)="appendtodisplay('/')" class="operator-btn">/</button>
+    <button (click)="appendtodisplay('%')" class="operator-btn">%</button>
+    <button (click)="calculate()">=</button>
+    <button (click)="clearDisplay()">C</button>
+  </div>
+</div>-->

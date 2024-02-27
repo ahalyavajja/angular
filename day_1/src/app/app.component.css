@@ -1,0 +1,12 @@
+body {
+    background-color: transparent; 
+}
+
+
+app-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f39f5a;
+    text-decoration-color: aqua;
+}

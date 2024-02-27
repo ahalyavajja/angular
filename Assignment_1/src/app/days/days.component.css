@@ -1,0 +1,16 @@
+div{
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+ngSwitch{
+    border-radius: 25%;
+}
+ngSwitch:hover{
+    background-color: rgb(158, 124, 124);
+}

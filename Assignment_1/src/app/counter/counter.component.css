@@ -1,0 +1,16 @@
+button{
+    margin: 5px;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(156, 144, 144, 0.322) ;
+    color: black;
+    cursor: pointer;
+    border-radius:25%;
+    width: 12vw;
+    height: 5vh;
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+}

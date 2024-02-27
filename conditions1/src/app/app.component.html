@@ -1,0 +1,35 @@
+<h1>ngIf</h1>
+<button (click)="fun()">Change</button>
+<div *ngIf="isAhalya then banda else siri" >
+  <p>Hii {{name}}</p>
+</div>
+<button (click)="fun1()">Buttton</button>
+<div *ngIf = "isAdmin then admin else user" >
+  <p>Hello</p>
+</div>
+<ng-template #admin>
+  <p>Hello Admin</p>
+</ng-template>
+<ng-template #user>
+  <p>Hello User</p>
+</ng-template>
+<ng-template #siri>
+  <p>Hi Everyone</p>
+</ng-template>
+<ng-template #banda>
+  <p>Hello</p>
+</ng-template>
+
+<input type="number" [(ngModel)]="value">
+{{value}}
+<div [ngSwitch]="value">
+  <p *ngSwitchCase="0">Sunday</p>
+  <p *ngSwitchCase="1">Monday</p>
+  <p *ngSwitchCase="2">Tueday</p>
+  <p *ngSwitchCase="3">Wednesday</p>
+  <p *ngSwitchCase="4">Thursday</p>
+  <p *ngSwitchCase="5">Friday</p>
+  <p *ngSwitchCase="6">Saturday</p>
+  <p *ngSwitchDefault="">Wrong Input</p>
+
+</div>

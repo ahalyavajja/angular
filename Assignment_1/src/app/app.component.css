@@ -1,0 +1,22 @@
+button{
+    margin: 5px;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: burlywood ;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 12vw;
+    height: 10vh;
+}
+button:hover{
+    background-color: rgb(158, 124, 124);
+}
+ng-container{
+    display: block;
+    margin-top: 20px;
+}
+router-outlet{
+    margin-top: 20px;
+}

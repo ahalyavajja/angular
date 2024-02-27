@@ -1,0 +1,10 @@
+<title>Assignment-1</title>
+<div class="container">
+<button (click)="DisCounter()">Counter</button>
+<button (click)="DisIOForm()">Input-Output Form</button>
+<button (click)="DisSwitchCase()">Switch-Case</button>
+<div *ngIf="currentComponent">
+    <ng-container *ngComponentOutlet="currentComponent"></ng-container>
+  </div>
+</div>
+<router-outlet></router-outlet>

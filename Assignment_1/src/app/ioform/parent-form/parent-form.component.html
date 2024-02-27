@@ -1,0 +1,12 @@
+<!-- parent.component.html -->
+
+<form (ngSubmit)="submitForm()">
+  <br>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" [(ngModel)]="name" name="name" required>
+    <button type="submit">Submit</button>
+    <br>
+  </form>
+  
+  <app-child *ngIf="submitted" [name]="name"></app-child>
+  
